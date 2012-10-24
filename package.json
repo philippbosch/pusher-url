@@ -2,10 +2,13 @@
   "name": "pusher-url",
   "version": "0.0.1",
   "description": "Easy configuration for node-pusher on Heroku",
-  "main": "pusher-url.js",
+  "main": "index",
   "repository": {
     "type": "git",
     "url": "https://github.com/philippbosch/pusher-url.git"
+  },
+  "dependencies": {
+    "node-pusher": ">= 0.0.1"
   },
   "keywords": [
     "pusher",
